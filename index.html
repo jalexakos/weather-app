@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/main.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+<title>Daily Weather</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-4">Daily Weather By City</h1>
+        <label for="Search" id="searchLabel">Search For Your City</label>
+        <input type="text" class="form-control" id= "searchBar" placeholder="City Name">
+        <button type="button" class="btn btn-info" onclick="getWeather()" id="searchButton">Search</button>
+        <br>
+        <hr>
+        <br>
+        <h4 id="errorMsg"></h4>
+        <h3 id="cityName"></h3>
+        <br>
+        <fieldset>
+        <h4 class="dataLabels">High</h4>
+        <h4 id="tempHigh"></h4>
+        </fieldset>
+        <br>
+        <fieldset>
+        <h4 class="dataLabels">Low</h4>
+        <h4 id="tempLow"></h4>
+        </fieldset>
+        <br>
+        <fieldset>
+        <h4 class="dataLabels">Forecast</h4>
+        <h4 id="forecastMain"></h4>
+        <h5 id="forecastDesc"></h5>
+        </fieldset>
+        <br>
+        <fieldset>
+        <h4 class="dataLabels">Humidity</h4>
+        <h4 id="humidity"></h4>
+        </fieldset>
+        <br>
+    </div>
+</body>
+</html>

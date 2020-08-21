@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient(to bottom, white,papayaWhip);
+}
+
+.container {
+    text-align: center;
+    margin: 2% auto;
+    width: 30%;
+}
+
+#searchLabel {
+    font-style: italic;
+    margin: 3% auto;
+}
+
+#searchBar {
+    margin-bottom: 2%;
+    background-color: oldlace;
+}
+
+#searchButton {
+    margin-bottom: 5%;
+}
+
+.dataLabels{
+    font-weight: 500;
+    margin-top: 4%;
+}
+
+#tempHigh, #tempLow, #forecastMain, #forecastDesc, #humidity {
+    margin-top: 5%;
+    font-size: 110;
+    font-weight: 600;
+}
+
+#tempHigh {
+    color: crimson;
+}
+
+#tempLow {
+    color: cornflowerblue;
+}
+
+#forecastMain {
+    color: dimgray;
+}
+
+#forecastDesc {
+    color: dimgrey;
+}
+
+#humidity {
+    color: lightseagreen;
+}
