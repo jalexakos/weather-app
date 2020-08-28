@@ -1,6 +1,6 @@
 function getWeather() {
     let city = document.querySelector('#searchBar').value;
-    let apiKey = '96a0bf7b599281b82902a3a8b74903eb'
+    let apiKey = 'API_KEY_HERE'
 
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`)
     .then(response => response.json())
